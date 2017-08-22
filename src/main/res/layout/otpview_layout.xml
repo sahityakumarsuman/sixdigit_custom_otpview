@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <EditText
+        android:id="@+id/first_edit_text"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_custom_boundry"
+        android:gravity="center"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:nextFocusLeft="@+id/first_edit_text"
+        android:nextFocusRight="@+id/second_edit_text" />
+
+    <EditText
+        android:id="@+id/second_edit_text"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_custom_boundry"
+        android:gravity="center"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:nextFocusLeft="@+id/first_edit_text"
+        android:nextFocusRight="@+id/third_edit_text" />
+
+    <EditText
+        android:id="@+id/third_edit_text"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_custom_boundry"
+        android:gravity="center"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:nextFocusLeft="@+id/second_edit_text"
+        android:nextFocusRight="@+id/fourth_edit_text" />
+
+    <EditText
+        android:id="@+id/fourth_edit_text"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="14dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_custom_boundry"
+        android:gravity="center"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:nextFocusLeft="@+id/third_edit_text"
+        android:nextFocusRight="@+id/fifth_edit_text" />
+
+    <EditText
+        android:id="@+id/fifth_edit_text"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="14dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_custom_boundry"
+        android:gravity="center"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:nextFocusLeft="@+id/fourth_edit_text"
+        android:nextFocusRight="@+id/sixth_edit_text" />
+
+    <EditText
+        android:id="@+id/sixth_edit_text"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_custom_boundry"
+        android:gravity="center"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:nextFocusLeft="@+id/fifth_edit_text"
+        android:nextFocusRight="@+id/sixth_edit_text" />
+</LinearLayout>
